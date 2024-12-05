@@ -1,0 +1,142 @@
+2024-11-16 00:00:19,883 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 00:00:19,883 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 00:00:19,885 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:00:22,012 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:00:22,019 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:00:22,203 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:00:22] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-16 00:00:22,206 - server - INFO - Model for ABBV already exists. Loading model...
+2024-11-16 00:00:22,259 - server - INFO - Model loaded. Preprocessing user input...
+2024-11-16 00:00:22,265 - server - INFO - User input preprocessed. Making prediction...
+2024-11-16 00:00:22,267 - server - ERROR - Problems with making prediction for ABBV. Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Next Close
+
+2024-11-16 00:00:22,270 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:00:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-16 00:00:35,609 - werkzeug - INFO -  * Detected change in 'C:\\Users\\John\\Desktop\\stock-predicting-ai\\backend\\services.py', reloading
+2024-11-16 00:00:35,735 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:00:37,898 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:00:37,907 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:00:39,474 - werkzeug - INFO -  * Detected change in 'C:\\Users\\John\\Desktop\\stock-predicting-ai\\backend\\services.py', reloading
+2024-11-16 00:00:39,707 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:01:53,513 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-16 00:01:53,513 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-16 00:01:53,515 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:01:55,674 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:01:55,684 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:01:55,897 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:01:55] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-16 00:01:56,165 - server - INFO - Model for ABBV already exists. Loading model...
+2024-11-16 00:01:56,219 - server - INFO - Model loaded. Preprocessing user input...
+2024-11-16 00:01:56,226 - server - INFO - User input preprocessed. Making prediction...
+2024-11-16 00:01:56,228 - server - ERROR - Problems with making prediction for ABBV. Error: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Next Close
+
+2024-11-16 00:01:56,231 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:01:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-16 00:02:02,925 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:02:02] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-16 00:02:03,245 - server - INFO - Model for ABBV does not exists. Preparing to train new model...
+2024-11-16 00:02:03,245 - server - INFO - Getting data for ABBV...
+2024-11-16 00:02:03,256 - server - INFO - Data succesfully processed. Checking whether it is outadated...
+2024-11-16 00:02:03,256 - server - INFO - Data for ABBV is up to date. Adding entry into ./stock_data.json
+2024-11-16 00:02:03,260 - server - INFO - Data for ABBV succesfully preprocessed and recorded into ./stock_data.json. Beginning training...
+2024-11-16 00:02:03,261 - backend.model - INFO - Starting model...
+2024-11-16 00:02:03,279 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:02:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-16 00:03:05,932 - werkzeug - INFO -  * Detected change in 'C:\\Users\\John\\Desktop\\stock-predicting-ai\\backend\\services.py', reloading
+2024-11-16 00:03:06,096 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:03:08,187 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:03:08,196 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:03:20,293 - werkzeug - INFO -  * Detected change in 'C:\\Users\\John\\Desktop\\stock-predicting-ai\\backend\\server.py', reloading
+2024-11-16 00:03:20,497 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:03:22,725 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:03:22,735 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:03:24,218 - werkzeug - INFO -  * Detected change in 'C:\\Users\\John\\Desktop\\stock-predicting-ai\\backend\\server.py', reloading
+2024-11-16 00:03:24,388 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:03:26,555 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:03:26,563 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:03:26,972 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:03:26] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-16 00:03:27,234 - server - INFO - Model for ABBV already exists. Loading model...
+2024-11-16 00:03:27,282 - server - INFO - Model loaded. Preprocessing user input...
+2024-11-16 00:03:27,288 - server - INFO - User input preprocessed. Making prediction...
+2024-11-16 00:03:27,294 - server - ERROR - Problems with making prediction for ABBV. Error: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+2024-11-16 00:03:27,297 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:03:27] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-16 00:03:34,458 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:03:34] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-16 00:03:34,772 - server - INFO - Model for ABBV does not exists. Preparing to train new model...
+2024-11-16 00:03:34,772 - server - INFO - Getting data for ABBV...
+2024-11-16 00:03:34,783 - server - INFO - Data succesfully processed. Checking whether it is outadated...
+2024-11-16 00:03:34,784 - server - INFO - Data for ABBV is up to date. Adding entry into ./stock_data.json
+2024-11-16 00:03:34,786 - server - INFO - Data for ABBV succesfully preprocessed and recorded into ./stock_data.json. Beginning training...
+2024-11-16 00:03:34,786 - backend.model - INFO - Starting model...
+2024-11-16 00:03:34,787 - backend.model - INFO - Normal training selected.
+2024-11-16 00:03:34,787 - backend.model - INFO - Starting model training...
+2024-11-16 00:03:34,787 - backend.model - INFO - Starting model training...
+2024-11-16 00:03:36,001 - backend.model - INFO - Model trained in 1.21 seconds.
+2024-11-16 00:03:36,001 - backend.model - INFO - Model trained.
+2024-11-16 00:03:36,001 - server - INFO - Model for ABBV trained successfully. Saving model...
+2024-11-16 00:03:36,039 - server - INFO - Model for ABBV saved successfully.
+2024-11-16 00:03:36,039 - server - INFO - Using trained model to make prediction...
+2024-11-16 00:03:36,044 - server - ERROR - Problems with making prediction for ABBV. Error: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+2024-11-16 00:03:36,046 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:03:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-16 00:03:45,959 - werkzeug - INFO -  * Detected change in 'C:\\Users\\John\\Desktop\\stock-predicting-ai\\backend\\server.py', reloading
+2024-11-16 00:03:46,149 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:03:48,303 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:03:48,312 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:04:43,058 - werkzeug - INFO -  * Detected change in 'C:\\Users\\John\\Desktop\\stock-predicting-ai\\backend\\server.py', reloading
+2024-11-16 00:04:43,201 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:04:45,351 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:04:45,360 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:04:46,849 - werkzeug - INFO -  * Detected change in 'C:\\Users\\John\\Desktop\\stock-predicting-ai\\backend\\server.py', reloading
+2024-11-16 00:04:46,983 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:04:49,164 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:04:49,172 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:04:50,649 - werkzeug - INFO -  * Detected change in 'C:\\Users\\John\\Desktop\\stock-predicting-ai\\backend\\server.py', reloading
+2024-11-16 00:04:50,780 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:04:52,923 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:04:52,932 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:04:55,338 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:04:55] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-16 00:04:55,599 - server - INFO - Model for ABBV does not exists. Preparing to train new model...
+2024-11-16 00:04:55,599 - server - INFO - Getting data for ABBV...
+2024-11-16 00:04:55,626 - server - INFO - Data succesfully processed. Checking whether it is outadated...
+2024-11-16 00:04:55,627 - server - INFO - Data for ABBV is up to date. Adding entry into ./stock_data.json
+2024-11-16 00:04:55,629 - server - INFO - Data for ABBV succesfully preprocessed and recorded into ./stock_data.json. Beginning training...
+2024-11-16 00:04:55,629 - backend.model - INFO - Starting model...
+2024-11-16 00:04:55,630 - backend.model - INFO - Normal training selected.
+2024-11-16 00:04:55,630 - backend.model - INFO - Starting model training...
+2024-11-16 00:04:55,630 - backend.model - INFO - Starting model training...
+2024-11-16 00:04:56,866 - backend.model - INFO - Model trained in 1.24 seconds.
+2024-11-16 00:04:56,866 - backend.model - INFO - Model trained.
+2024-11-16 00:04:56,866 - server - INFO - Model for ABBV trained successfully. Saving model...
+2024-11-16 00:04:56,907 - server - INFO - Model for ABBV saved successfully.
+2024-11-16 00:04:56,907 - server - INFO - Using trained model to make prediction...
+2024-11-16 00:04:56,912 - server - ERROR - Problems with making prediction for ABBV. Error: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+2024-11-16 00:04:56,914 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:04:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-16 00:05:02,063 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:05:02] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-16 00:05:02,372 - server - INFO - Model for ABBV already exists. Loading model...
+2024-11-16 00:05:02,424 - server - INFO - Model loaded. Preprocessing user input...
+2024-11-16 00:05:02,428 - server - INFO - User input preprocessed. Making prediction...
+2024-11-16 00:05:02,435 - server - ERROR - Problems with making prediction for ABBV. Error: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+2024-11-16 00:05:02,437 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:05:02] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-16 00:05:18,285 - werkzeug - INFO -  * Detected change in 'C:\\Users\\John\\Desktop\\stock-predicting-ai\\backend\\server.py', reloading
+2024-11-16 00:05:18,437 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:05:20,509 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:05:20,518 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:05:59,774 - werkzeug - INFO -  * Detected change in 'C:\\Users\\John\\Desktop\\stock-predicting-ai\\backend\\server.py', reloading
+2024-11-16 00:05:59,927 - werkzeug - INFO -  * Restarting with stat
+2024-11-16 00:06:02,050 - werkzeug - WARNING -  * Debugger is active!
+2024-11-16 00:06:02,058 - werkzeug - INFO -  * Debugger PIN: 278-097-720
+2024-11-16 00:06:12,965 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:06:12] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-16 00:06:13,231 - server - INFO - Model for ABBV does not exists. Preparing to train new model...
+2024-11-16 00:06:13,231 - server - INFO - Getting data for ABBV...
+2024-11-16 00:06:13,246 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:06:13] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-16 00:06:25,874 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:06:25] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-16 00:06:26,180 - server - INFO - Model for ABBV does not exists. Preparing to train new model...
+2024-11-16 00:06:26,180 - server - INFO - Getting data for ABBV...
+2024-11-16 00:06:26,180 - werkzeug - INFO - 127.0.0.1 - - [16/Nov/2024 00:06:26] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
