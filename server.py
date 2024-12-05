@@ -32,6 +32,8 @@ logging.basicConfig(filename=f'{BASE_LOG_DIRECTRY}{date.today()}.log',
                     level=logging.DEBUG)
 
 logging.getLogger("pymongo").setLevel(logging.WARNING)
+logging.getLogger("pymongo.topology").setLevel(logging.WARNING)
+
 
 logger = logging.getLogger('server')
 
